@@ -64,7 +64,7 @@ if(isset($_FILES['file1']))
         $f2="Acknowledgement ❌";
     }
 
-    include ("save.html");
+    include ("save.php");
     ?>
     <div class="main">
     <form action="index.php" method="POST">
@@ -81,7 +81,7 @@ if(isset($_FILES['file1']))
 </div><?php
 
 }else{
-    include ("another.html");
+    include ("another.php");
 }
 
 ?>
