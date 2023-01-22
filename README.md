@@ -6,3 +6,7 @@
 ![Screenshot (49)](https://user-images.githubusercontent.com/91625966/213907910-9bae04c6-cac2-4e5f-99fa-fb06c9adfff0.png)
 # if try to save same file show this...
 ![Screenshot (50)](https://user-images.githubusercontent.com/91625966/213907913-3248df96-5c8d-432f-b748-a2ee5d12166b.png)
+# Disk Folder
+![Screenshot (51)](https://user-images.githubusercontent.com/91625966/213908039-b7819340-4455-4886-b1cd-a6033a97a7ce.png)
+# stored file
+![Screenshot (52)](https://user-images.githubusercontent.com/91625966/213908052-4d10baed-2b23-4d67-874a-a08b57f1d8c2.png)
