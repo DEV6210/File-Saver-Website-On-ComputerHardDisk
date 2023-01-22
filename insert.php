@@ -29,7 +29,7 @@ $addform = $a1.$a2.$a3;
 
 
 $json = json_encode(JSON_NUMERIC_CHECK);
-if(mkdir('SC ST OBC/'.$addform, 0777 , true))
+if(mkdir('D:/Online Work/SC ST OBC (new)/'.$addform, 0777 , true))
 {
 if(isset($_FILES['file1']))
     {
@@ -41,7 +41,7 @@ if(isset($_FILES['file1']))
         $file_size = $_FILES['file1']['size'];
         $file_temp = $_FILES['file1']['tmp_name'];
         $file_type = $_FILES['file1']['type'];
-        move_uploaded_file($file_temp,"SC ST OBC/$addform/". $file_name);
+        move_uploaded_file($file_temp,"D:/Online Work/SC ST OBC (new)/$addform/". $file_name);
         
         $f1="Form ✔️  ";
     }else{
@@ -57,14 +57,14 @@ if(isset($_FILES['file1']))
         $file_size = $_FILES['file2']['size'];
         $file_temp = $_FILES['file2']['tmp_name'];
         $file_type = $_FILES['file2']['type'];
-        move_uploaded_file($file_temp,"SC ST OBC/$addform/". $file_name);
+        move_uploaded_file($file_temp,"D:/Online Work/SC ST OBC (new)/$addform/". $file_name);
         
         $f2="Acknowledgement ✔️";
     }else{
         $f2="Acknowledgement ❌";
     }
 
-    include ("save.php");
+    include ("save.html");
     ?>
     <div class="main">
     <form action="index.php" method="POST">
@@ -81,7 +81,7 @@ if(isset($_FILES['file1']))
 </div><?php
 
 }else{
-    include ("another.php");
+    include ("another.html");
 }
 
 ?>
